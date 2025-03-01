@@ -554,7 +554,7 @@ input[placeholder] {
   letter-spacing: 0.04em;
   color: #fff;
 }
-.footer-form button {
+.btn-subscribe {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -709,8 +709,8 @@ input[placeholder] {
   height: 40px; */
 }
 
-.modal-form-input:focus .modal-form-icon,
-.modal-form-input:hover .modal-form-icon {
+.modal-form-input:focus + .modal-form-icon,
+.modal-form-input:hover + .modal-form-icon {
   fill: #4d5ae5;
 }
 
